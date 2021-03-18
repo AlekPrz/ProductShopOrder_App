@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="connection.url">jdbc:mysql://localhost:3306/projekt_hibernate?useLegacyDatetimeCode=false&amp;serverTimezone=UTC</property>
+        <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">root</property>
+        <property name="hbm2ddl.auto">create</property>
+        <!--<property name="show_sql">true</property>-->
+        <mapping class="com.app.model.Category"/>
+        <mapping class="com.app.model.Customer"/>
+        <mapping class="com.app.model.CustomerOrder"/>
+        <mapping class="com.app.model.Errors"/>
+        <mapping class="com.app.model.Shop"/>
+        <mapping class="com.app.model.Country"/>
+        <mapping class="com.app.model.Payment"/>
+        <mapping class="com.app.model.Producer"/>
+        <mapping class="com.app.model.Product"/>
+        <mapping class="com.app.model.Trade"/>
+        <mapping class="com.app.model.EPayment"/>
+
+        <mapping class="com.app.model.Stock"/>
+
+
+    </session-factory>
+</hibernate-configuration>

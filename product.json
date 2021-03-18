@@ -1,0 +1,14 @@
+{
+  "products": [
+    {
+      "name": "KOMPUTER",
+      "price": "100000",
+      "category": {
+        "name": "A"
+      },
+      "producer": {
+        "name": "SAMSUNG"
+      }
+    }
+  ]
+}

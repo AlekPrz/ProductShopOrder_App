@@ -1,0 +1,13 @@
+{
+  "producers": [
+    {
+      "name": "SAMSUNG",
+      "country": {
+        "city": "ALASKA"
+      },
+      "trade": {
+        "name": "IT"
+      }
+    }
+  ]
+}

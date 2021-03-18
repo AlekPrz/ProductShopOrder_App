@@ -1,0 +1,12 @@
+{
+  "customers": [
+    {
+      "age": "20",
+      "name": "ALEK",
+      "surname": "PRZYBYSZ",
+      "country": {
+        "city": "MALEDIWY"
+      }
+    }
+  ]
+}
